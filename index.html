@@ -20,7 +20,7 @@
     <header class="">
           
            <!-- nav area -->
-          <nav class="navbar navbar-expand-lg  container">
+          <nav class="navbar navbar-expand-lg  container sticky-top">
                     <div class="container-fluid ">
                       <a class="navbar-brand fw-bold" href="#">E-Learning school</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,19 +32,22 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Deals</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Success</a>
+                            <a class="nav-link" href="#success">Success</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about-companies">About</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" href="#about">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#join">Register</a>
                           </li>
                           
                         </ul>
@@ -57,7 +60,7 @@
                   </nav>
 
                   <!-- banner area -->
-                  <div id="carouselExampleCaptions" class="carousel slide container mt-4" data-bs-ride="false">
+                  <div id="carouselExampleCaptions" class="carousel slide container mt-5 pt-5" data-bs-ride="false">
                     <div class="carousel-inner">
                               <!-- 1c -->
                       <div class="carousel-item active ">
@@ -102,7 +105,7 @@
 
     <!-- main area -->
     <main>
-          <section class="courses mt-5 container">
+          <section class="courses mt-5 container" id="courses">
                     <div class="popular-courses container-fluid my-5">
                               <h1 class="fw-bold text-center fs-1 ">Discover Our Popular <br> <span>Courses</span>
                               </h1>
@@ -225,8 +228,52 @@
                               <button type="button" class="btn btn-primary btn-lg">View All</button>
                     </div>
           </section>
+          <!-- Explore elearning  -->
+          <section class="container my-3 ">
+          <div class="card mb-3 container h-100" >
+            <div class="row g-0 align-items-cente elearning">
+              <div class="col-md-4 h-100">
+                <img src="images/working.png" class="img-fluid rounded" alt="...">
+              </div>
+              <div class="col-md-8  ">
+                <div class="card-body ">
+                  <h2 class="card-title">Explore The elearning Institute</h2>
+                  <p class="my-3 card-text"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure. <br>
+  
+                  Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+
+                  <!-- view kkkkk -->
+                  <div class="d-flex justify-content-between">
+                    <!-- 3.2k -->
+                  <div>
+                    <h3>3.2K+</h3>
+                    <p>Online Course</p>
+                  </div>
+                  <!-- 600+ -->
+                  <div>
+                    <h3>600+</h3>
+                    <p>Expert member</p>
+                  </div>
+                  <!-- 1k -->
+                  <div>
+                    <h3>1K+</h3>
+                    <p>Rating & Review</p>
+                  </div>
+                </div>
+                <!-- k -->
+                <button type="button" class="btn btn-primary btn-lg mt-2">View All</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+          <!--  -->
+          
           <!-- Ready to join area -->
-          <section class=" container  h-100 p-5 my-5">
+          <section class=" container  h-100 p-5 my-5" id="join">
                     <div class="row bg-primary rounded  align-items-center gx-5 p-5 flex-lg-row flex-md-column flex-sm-column text-lg-start text-center">
                               <div class=" col-lg-8  col-sm-12 ">
                                         <h2 class="text-light">
@@ -271,7 +318,7 @@
                     </div>
           </section>
           <!-- Successfull Students area -->
-          <section class="container">
+          <section class="container" id="success">
             <div class="Successfull-student container-fluid my-5">
               <h1 class="fw-bold text-center fs-1 ">Meet Our Successfull<br> <span> Students </span>
               </h1>
@@ -372,9 +419,11 @@
             </div>
           </section>
           <!-- Asked Question area -->
-          <section class="container overflow-hidden">
-            <div class="question-area container-fluid my-5">
-              <h1 class="fw-bold text-center fs-1 ">Frequently Asked Questions </h1>
+          <section class="container align-items-center ">
+            <div class="question-area container my-5 text-center">
+              <h1 class="fw-bold text-center fs-1 ">
+                Frequently Asked Questions 
+              </h1>
               <p class=" text-center fs-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
             <!-- accorian -->
@@ -460,7 +509,7 @@
             </div>
           </section>
            <!-- companies area -->
-           <section class="container overflow-hidden d-none d-sm-none d-md-none d-lg-block ">
+           <section class="container overflow-hidden d-none d-sm-none d-md-none d-lg-block " id="about-companies">
             <div class="companies-area container-fluid my-5">
               <h1 class="fw-bold text-center fs-1 ">Trusted by over 800+ companies </h1>
               <div class="d-flex justify-content-between align-items-center g-3 mt-5 ">
